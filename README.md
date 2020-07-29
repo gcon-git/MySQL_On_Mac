@@ -1,8 +1,12 @@
 ## About this project
 
-This project provides the steps necessary to install and use MySQL on a personal computer. 
+This project provides the steps necessary to install and use MySQL 8.0 on a personal computer using MacOS 10.15. 
 
-I wanted to share these steps to help others so that they can avoid searching & reading several different blog posts/videos.
+I had to review/research several YouTube videos, StackOverflow posts, blog posts and other resources online to find the necessary requirements & steps to setup MySQL 8.0 on my own computer. 
+
+I wanted to capture & share the steps that I used in one location to help others get started and potentially avoid the same degree of confusion I initially encountered.
+
+This README file provides the references that were most helpful to me while trying to capture the steps that I used for the installation and initial set up. The *Configuring_MySQL_To_Use_Local_Files.md* file contains additional references used to help capture the steps I took to configure MySQL to allow for local data import/export operations.
 
 ## General
 
@@ -15,6 +19,7 @@ The following are the principle references that provide most, if not all, of the
 * YouTube video (20 min : 11 sec):  "How To Install MySQL on Mac OS X", by ProgrammingKnowledge, dated Aug 8, 2017 at https://www.youtube.com/watch?v=UcpHkYfWarM
 * YouTube video (6 min : 20 sec): "How to install mysql and workbench on Mac", by Tina, dated Apr 30, 2017 at https://www.youtube.com/watch?v=-TSFLhlGY1k
 * YouTube video (12 min : 16 sec): "MacOSX Install MySQL and Workbench", by idtprof, dated Sep 17, 2018 at https://www.youtube.com/watch?v=zbK8cNS_cg0
+* 2.4. Installing MySQL on macOS, *MySQL 8.0 Reference Manual*, https://dev.mysql.com/doc/refman/8.0/en/osx-installation.html
 
 Not all of the videos used the current Mac OSx (Catalina 10.15.4) to demonstrate the steps for installation and/or setup. As such, there was some slight variation that I experienced when installing and setting up MySQL Community Server on my own computer. I've tried to capture the relevant steps that I used to install and set up MySQL for use on my own Mac.
 
